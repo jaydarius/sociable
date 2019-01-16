@@ -1,5 +1,5 @@
 # third party imports
-from flask import (Flask, g, render_template, redirect, flash, url_for
+from flask import (Flask, g, render_template, redirect, flash, url_for,
                    abort)
 from flask_bcrypt import check_password_hash
 from flask_login import (LoginManager, login_user, logout_user,
